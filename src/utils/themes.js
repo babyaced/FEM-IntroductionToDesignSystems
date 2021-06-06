@@ -10,6 +10,8 @@ export const defaultTheme = {
     textColorInverted: neutral[100],
     disabled: blue[300],
     textColorOnDisabled: neutral[300],
+    formElementBackground: neutral[100],
+    textOnFormElementBackground: neutral[600],
     primaryFont,
 
     status: {
@@ -23,17 +25,19 @@ export const defaultTheme = {
         successColorHover: green[200],
         successColorActive: green[300]
       }
-},
+}
 
 export const darkTheme = {
     primaryColor: neutral[100],
     primaryColorHover: neutral[200],
     primaryColorActive: neutral[100],
-    textColorOnPrimary: blue[400],
+    textColorOnPrimary: blue[200],
     textColor: blue[300],
     textColorInverted: blue[400],
     disabled: neutral[500],
     textColorOnDisabled: neutral[400],
+    formElementBackground: blue[400],
+    textOnFormElementBackground: neutral[600],
     primaryFont,
 
     status: {
